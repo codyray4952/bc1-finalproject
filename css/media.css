@@ -39,12 +39,8 @@
     background:#fafafa;
     width:70%;
     margin:0 auto;
-}
-
-.audioBox:after{
-    content:'';
-    display:block;
-    clear:both;
+    border-top-right-radius:12px;
+    border-bottom-left-radius:12px;
 }
 
 .audioHeader{
@@ -52,5 +48,6 @@
 }
 
 .videoContainer{
-    
+    width:95%;
+    margin:0 auto 8px;
 }
